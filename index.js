@@ -23,7 +23,6 @@ const options = {
 }
 app.use(cors(options));
 
-app.use(express.static(__dirname));
 routerApi(app);
 
 app.use(logErrors);
