@@ -36,6 +36,6 @@ app.get('/', (req, res) => {
 
 
 app.listen(port, () => {
-  console.log("IP 192.168.0.108 escuchando en puerto: " + port);
+  console.log("escuchando en puerto: " + port);
 });
 
